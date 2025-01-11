@@ -27,14 +27,14 @@
             <plugin>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-maven-plugin</artifactId>
-                <version>11.0.16</version>
+                <version>11.0.22</version>
                 <configuration>
                     <httpConnector>
                         <port>9000</port>
                     </httpConnector>
                     <supportedPackagings>jar</supportedPackagings>
                     <webApp>
-                        <descriptor>src/main/webapp/WEB-INF/web.xml</descriptor>
+                        <descriptor>src/main/webapp/web.xml</descriptor>
                     </webApp>
                 </configuration>
             </plugin>

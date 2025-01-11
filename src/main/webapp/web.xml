@@ -24,39 +24,42 @@
         <url-pattern>/summary</url-pattern>
     </servlet-mapping>
 
-    <servlet>
-        <servlet-name>ExpensesServlet</servlet-name>
-        <servlet-class>org.example.ExpensesServlet</servlet-class>
-    </servlet>
+<!--    <servlet>-->
+<!--        <servlet-name>ExpensesServlet</servlet-name>-->
+<!--        <servlet-class>org.example.ExpensesServlet</servlet-class>-->
+<!--    </servlet>-->
 
-    <servlet-mapping>
-        <servlet-name>ExpensesServlet</servlet-name>
-        <url-pattern>/expenses/add</url-pattern>
-    </servlet-mapping>
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>ExpensesServlet</servlet-name>-->
+<!--        <url-pattern>/expenses/add</url-pattern>-->
+<!--    </servlet-mapping>-->
 
-    <filter>
-        <filter-name>ExpensesFilter</filter-name>
-        <filter-class>org.example.filter.ExpensesFilter</filter-class>
-    </filter>
+<!--    <filter>-->
+<!--        <filter-name>ExpensesFilter</filter-name>-->
+<!--        <filter-class>org.example.filter.ExpensesFilter</filter-class>-->
+<!--    </filter>-->
 
-    <filter-mapping>
-        <filter-name>ExpensesFilter</filter-name>
-        <url-pattern>/expenses/add</url-pattern>
-    </filter-mapping>
+<!--    <filter-mapping>-->
+<!--        <filter-name>ExpensesFilter</filter-name>-->
+<!--        <url-pattern>/expenses/add</url-pattern>-->
+<!--    </filter-mapping>-->
 
-    <servlet>
-        <servlet-name>DetailsServlet</servlet-name>
-        <servlet-class>org.example.DetailServlet</servlet-class>
-    </servlet>
+<!--    <servlet>-->
+<!--        <servlet-name>DetailsServlet</servlet-name>-->
+<!--        <servlet-class>org.example.DetailServlet</servlet-class>-->
+<!--    </servlet>-->
 
-    <servlet-mapping>
-        <servlet-name>DetailsServlet</servlet-name>
-        <url-pattern>/details</url-pattern>
-    </servlet-mapping>
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>DetailsServlet</servlet-name>-->
+<!--        <url-pattern>/details</url-pattern>-->
+<!--    </servlet-mapping>-->
 
-    <listener>
-        <listener-class>org.example.listeners.LogAttributeChanges</listener-class>
-    </listener>
+<!--    <listener>-->
+<!--        <listener-class>org.example.listeners.LogAttributeChanges</listener-class>-->
+<!--    </listener>-->
+
+
+
 
 <!--    <welcome-file-list>-->
 <!--        <welcome-file>index.html</welcome-file>-->

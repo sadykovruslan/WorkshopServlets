@@ -13,17 +13,17 @@ import java.io.IOException;
 public class LoginServlet extends HttpServlet {
 
     protected final String passwd = "123456";
-
-    @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String password = req.getParameter("password");
-
-        if(passwd.equals(password)){
-            HttpSession session = req.getSession();
-            session.setMaxInactiveInterval(10);
-            resp.sendRedirect("/summary");
-        } else {
-            resp.getWriter().println("Wrong password");
-        }
-    }
+//
+//    @Override
+//    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+//        String password = req.getParameter("password");
+//
+//        if(passwd.equals(password)){
+//            HttpSession session = req.getSession();
+//            session.setMaxInactiveInterval(10);
+//            resp.sendRedirect("/summary");
+//        } else {
+//            resp.getWriter().println("Wrong password");
+//        }
+//    }
 }
